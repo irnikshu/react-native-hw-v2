@@ -4,13 +4,13 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <ImageBackground 
+      <ImageBackground 
         style={styles.image}
         source={require("./assets/images/auth-bcg-image.jpg")}>        
-        </ImageBackground> */}
-      <View style={styles.innerBox}>
+        </ImageBackground>
+      {/* <View style={styles.innerBox}>
         <Text style={styles.text}>Регистрация</Text>
-      </View>
+      </View> */}
 
       <StatusBar style="auto" />
     </View>
